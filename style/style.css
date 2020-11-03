@@ -1,6 +1,9 @@
 body {
     height: 100%;
     width:100%;
+    color: #2D4108;
+    background-color: mintcream;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 .welcome{
@@ -16,10 +19,15 @@ body {
 
 .section{
     height: 1000px;
-    background-color: mintcream;
-    font-size:36px;
+    font-size:30px;
 }
 
  .logo {
    width: 100%;
+}
+
+#pink {
+    height: 10%;
+    margin-top: 20%; 
+    
 }
