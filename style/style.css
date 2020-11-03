@@ -1,0 +1,25 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.parallax{
+    background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
+    min-width: 100%;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    height: 1000px;
+    background-color:red;
+    font-size:36px;
+}
+
+.logo {
+    width: 600px;
+}
