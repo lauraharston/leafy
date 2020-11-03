@@ -1,12 +1,12 @@
 body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    height: 100%;
+    width:100%;
 }
-.parallax{
+
+.welcome{
     background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
-    min-width: 100%;
+    min-width: 100vw;
+    max-width: 100vh;
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -20,6 +20,6 @@ body {
     font-size:36px;
 }
 
-.logo {
-    width: 600px;
+ .logo {
+   width: 100%;
 }
