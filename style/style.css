@@ -9,7 +9,7 @@ body {
 .welcome{
     background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
     min-width: 100vw;
-    min-height: 1000px;
+    min-height: 900px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body {
 #pink {
     height: 10%;
     margin-top: 20%; 
-    margin-left: 25%;
+    margin-left: 22%;
 }
 
 #intro {
@@ -102,7 +102,7 @@ body {
 .philosophy {
   background-color: rgb(4, 9, 37);
   height: 800px;
-  min-width: 90vw;
+  min-width: 80vw;
 }
 
 
