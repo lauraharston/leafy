@@ -73,7 +73,7 @@ body {
 .intro{
     font-size:30px;
     min-width: 90vw;
-    height: 800px;
+    height: 900px;
 }
 
 
@@ -107,15 +107,11 @@ body {
 
 .offer{
   margin-top: 10%;
-  height: 800px;
+  height: 550px;
   min-width: 95vw;
   margin-top: 20%;
 }
 
-.gallery {
-  height: 45%;
-
-}
 
 h1 {
   font-weight: bold;
@@ -123,6 +119,24 @@ h1 {
 
 h2 {
   font-weight: bold;
+  margin-top: 5%;
+}
 
+#herb {
+  border-radius: 35%;
+  height: 25%;
+  margin-top: 5%;
+}
+
+#hand {
+  height: 15%;
+  margin-left: -20%;
+}
+
+#test {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-left: 30%;
+  margin-top: 50%;
 }
 
