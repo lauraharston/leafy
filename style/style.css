@@ -130,13 +130,12 @@ h2 {
 
 #hand {
   height: 15%;
-  margin-left: -20%;
+  margin-left: -30%;
 }
 
 #test {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  margin-left: 30%;
-  margin-top: 50%;
+  margin-top: 300%;
 }
 
