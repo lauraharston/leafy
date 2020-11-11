@@ -113,6 +113,7 @@ body {
 }
 
 
+
 h1 {
   font-weight: bold;
 }
@@ -137,5 +138,19 @@ h2 {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   margin-top: 300%;
+}
+
+.founders img {
+  height: 15%;
+}
+
+.founders {
+  margin-top: 35%;
+  height: 700px;
+  font-size: large;
+}
+
+.isaiah {
+  margin-bottom: 10%;
 }
 
