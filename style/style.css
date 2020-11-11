@@ -146,21 +146,21 @@ h2 {
 
 .founders {
   margin-top: 35%;
-  height: 700px;
+  height: 650px;
   font-size: large;
 }
 
 .isaiah {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #founder1 {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  margin-left: 25%;
+  border-radius: 35%;
 }
 
-
 #founder2 {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  margin-left: 40%;
+  border-radius: 35%;
+  margin-top: -20%;
 }
