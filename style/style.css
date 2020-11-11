@@ -154,3 +154,13 @@ h2 {
   margin-bottom: 10%;
 }
 
+#founder1 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+
+#founder2 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
