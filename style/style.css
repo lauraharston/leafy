@@ -147,7 +147,6 @@ h2 {
 .founders {
   margin-top: 35%;
   height: 650px;
-  font-size: large;
 }
 
 .isaiah {
@@ -163,4 +162,10 @@ h2 {
   margin-left: 40%;
   border-radius: 35%;
   margin-top: -20%;
+}
+
+.contact {
+  margin-top: 20%;
+  background-color: rgb(4, 9, 37);
+  color: mintcream;
 }
