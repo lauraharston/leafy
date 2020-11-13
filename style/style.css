@@ -8,7 +8,7 @@ body {
 
 .welcome{
     background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
-    min-height: 900px;
+    min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,12 +72,11 @@ body {
 .intro{
     font-size:30px;
     min-width: 90vw;
-    height: 900px;
 }
 
 
 #pink {
-    height: 10%;
+    width: 100%;
     margin-top: 20%; 
     margin-left: 22%;
 }
