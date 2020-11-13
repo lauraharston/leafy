@@ -8,7 +8,6 @@ body {
 
 .welcome{
     background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
-    min-height: 850px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
