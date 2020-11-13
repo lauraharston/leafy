@@ -93,13 +93,12 @@ body {
 }
 
 #palm{
-  height: 22%;
+  width: 125%;
   margin-top: 20%;
 }
 
 .philosophy {
   background-color: rgb(4, 9, 37);
-  height: 800px;
   min-width: 80vw;
 }
 
