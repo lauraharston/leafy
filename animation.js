@@ -1,18 +1,19 @@
 // Window match media
 let picture = document.getElementById("founder2");
 let parent = document.getElementById("martin");
-let mediaResize = window.matchMedia("(max-width: 767px)")
+let mediaResize = window.matchMedia("(max-width: 812px)")
 
 function moveImg () {
     if (mediaResize.matches) {
         parent.prepend(picture);
-      } else {
-          parent.appendChild(picture);
-      }
+    } else {
+        parent.appendChild(picture);
+    }
 }
 
 moveImg(mediaResize);
-mediaResize.addListener(moveImg)
+mediaResize.addListener(moveImg);
+
 
 
 // Animations

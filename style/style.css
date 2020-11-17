@@ -81,6 +81,12 @@ body {
     margin-top: 20%; 
 }
 
+@media only screen and (max-width: 768px) {
+  #pink {
+    width: 70%;
+    margin-top: 20%; 
+}
+}
 #intro {
     margin-top: 20%;
 }
@@ -93,8 +99,15 @@ body {
 }
 
 #palm{
-  width: 125%;
+  width: 115%;
   margin-top: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  #palm{
+    width: 80%;
+   
+  }
 }
 
 .philosophy {
@@ -103,7 +116,6 @@ body {
 
 .offer{
   margin-top: 15%;
-  min-height: 100vh;
 }
 
 
