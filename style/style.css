@@ -99,14 +99,11 @@ body {
 
 .philosophy {
   background-color: rgb(4, 9, 37);
-  min-width: 80vw;
 }
 
 .offer{
-  height: 550px;
-  min-width: 95vw;
   margin-top: 15%;
-
+  min-height: 100vh;
 }
 
 
@@ -139,7 +136,7 @@ h2 {
 
 
 .founders {
-  margin-top: 35%;
+  min-height: 100vh;
 }
 
 .behind-leafy {
