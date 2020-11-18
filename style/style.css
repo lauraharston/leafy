@@ -6,14 +6,17 @@ body {
     background-color: mintcream;
 }
 
+
 .welcome{
     background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 110vh;
 }
+
+
 
 
 .logo {
@@ -88,6 +91,13 @@ body {
     margin-top: 20%; 
 }
 }
+
+@media only screen and (max-width: 768px) {
+  #intro {
+    margin-top: 10%;
+}
+}
+
 #intro {
     margin-top: 20%;
 }
