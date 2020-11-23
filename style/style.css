@@ -6,6 +6,9 @@ body {
     background-color: mintcream;
 }
 
+.navbar {
+  background-color: mintcream;
+}
 
 .welcome{
     background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
@@ -15,8 +18,6 @@ body {
     background-size: cover;
     min-height: 110vh;
 }
-
-
 
 
 .logo {
@@ -73,7 +74,20 @@ body {
  }
 }
 
-.intro{
+.about h1 {
+  font-size: 3rem;
+}
+
+.about p {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+#cover {
+  width: 100%;
+  height: 80%;
+}
+/*.intro{
     font-size:30px;
     min-width: 90vw;
     min-height: 115vh;
@@ -123,11 +137,11 @@ body {
 
 .philosophy {
   background-color: rgb(4, 9, 37);
-}
+} */
 
 .offer{
   margin-top: 15%;
-}
+} 
 
 
 
