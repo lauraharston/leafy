@@ -11,8 +11,8 @@ body {
   background-color: mintcream;
 }
 
-.welcome{
-    background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
+.landing{
+    background-image: url("./pictures/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,8 +20,17 @@ body {
     min-height: 110vh;
 }
 
+.landing h2 {
+  color: white;
+}
+
+.landing h2 {
+  margin-top: -10%;
+}
+
 
 .logo {
+  margin-top: 10%;
   width: 100%;
   animation: fadeIn ease 3s;
    -webkit-animation: fadeIn ease 3s;
@@ -164,9 +173,6 @@ body {
   background-color: rgb(4, 9, 37);
 } */
 
-.offer{
-  margin-top: 15%;
-} 
 
 
 
@@ -179,7 +185,7 @@ h2 {
   margin-top: 5%;
 }
 
-#herb {
+/*#herb {
   border-radius: 35%;
   width: 110%;
   margin-top: 10%;
@@ -195,7 +201,7 @@ h2 {
   text-orientation: mixed;
   margin-top: 300%;
 }
-
+*/
 
 .founders {
   min-height: 100vh;
