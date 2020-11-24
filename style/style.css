@@ -6,6 +6,7 @@ body {
     background-color: mintcream;
 }
 
+
 .navbar {
   background-color: mintcream;
 }
@@ -90,6 +91,24 @@ body {
 }
 
 .about p {
+  color: white;
+  font-size: 2rem;
+}
+.philosophy {
+  background-image: url("./pictures/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 110vh;
+}
+
+.philosophy h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.philosophy p {
   color: white;
   font-size: 2rem;
 }
