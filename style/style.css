@@ -83,8 +83,10 @@ body {
 }
 
 .features img {
-  width: 100%;
+  width: 80%;
 }
+
+
 
 .box {
   position: relative;
@@ -93,13 +95,22 @@ body {
 }
 
 
-
 .box p {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.decor img {
+  width: 100%;
+}
+
+.test1 img {
+  width: 100%;
+}
+
+
 .about {
   background-image: url("./pictures/jackie-dilorenzo-RyLsRzy9jIA-unsplash.jpg");
   background-attachment: fixed;
