@@ -3,13 +3,11 @@ body {
     width:100%;
     color: #2D4108;
     font-family: 'Montserrat', sans-serif;
-    background-color: mintcream;
+    
 }
 
 
-.navbar {
-  background-color: mintcream;
-}
+
 
 .landing{
     background-image: url("./pictures/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
@@ -84,7 +82,24 @@ body {
  }
 }
 
+.features img {
+  width: 100%;
+}
 
+.box {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+.box p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .about {
   background-image: url("./pictures/jackie-dilorenzo-RyLsRzy9jIA-unsplash.jpg");
   background-attachment: fixed;
