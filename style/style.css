@@ -19,6 +19,7 @@ body {
     position: relative;
 }
 
+
 .logo-motto {
   position: absolute;
   top: 50%;
@@ -32,6 +33,12 @@ body {
 
 .landing h2 {
   margin-top: -10%;
+}
+
+@media only screen and (max-width: 480px) {
+  .landing h2 {
+    font-size: 20px;
+  }
 }
 
 
