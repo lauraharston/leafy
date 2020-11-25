@@ -3,16 +3,14 @@ body {
     width:100%;
     color: #2D4108;
     font-family: 'Montserrat', sans-serif;
-    background-color: mintcream;
+    
 }
 
 
-.navbar {
-  background-color: mintcream;
-}
 
-.welcome{
-    background-image: url("/style/pictures/scott-webb-oRWRlTgBrPo-unsplash.jpg");
+
+.landing{
+    background-image: url("./pictures/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,8 +18,17 @@ body {
     min-height: 110vh;
 }
 
+.landing h2 {
+  color: white;
+}
+
+.landing h2 {
+  margin-top: -10%;
+}
+
 
 .logo {
+  margin-top: 10%;
   width: 100%;
   animation: fadeIn ease 3s;
    -webkit-animation: fadeIn ease 3s;
@@ -75,103 +82,44 @@ body {
  }
 }
 
-
-.about {
-  background-image: url("./pictures/jackie-dilorenzo-RyLsRzy9jIA-unsplash.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 110vh;
+.features img {
+  width: 80%;
 }
 
-.about h1 {
+
+
+.box {
+  position: relative;
+  text-align: center;
   color: white;
-  font-size: 4rem;
-}
-
-.about p {
-  color: white;
-  font-size: 2rem;
-}
-.philosophy {
-  background-image: url("./pictures/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 110vh;
-}
-
-.philosophy h1 {
-  color: white;
-  font-size: 4rem;
-}
-
-.philosophy p {
-  color: white;
-  font-size: 2rem;
-}
-/*.intro{
-    font-size:30px;
-    min-width: 90vw;
-    min-height: 115vh;
 }
 
 
-#pink {
-    width: 100%;
-    margin-top: 20%; 
+.box p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 768px) {
-  #pink {
-    width: 70%;
-    margin-top: 20%; 
-}
+.decor img {
+  width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-  #intro {
-    margin-top: 10%;
-}
-}
-
-#intro {
-    margin-top: 20%;
-}
-
-#philosophy {
-  font-size:30px;
-  margin-top: 15%;
-  padding-left: 10%;
-  color: mintcream;
-}
-
-#palm{
-  width: 115%;
-  margin-top: 20%;
-}
-
-@media only screen and (max-width: 768px) {
-  #palm{
-    width: 80%;
-   
-  }
-}
-
-.philosophy {
-  background-color: rgb(4, 9, 37);
-} */
-
-.offer{
-  margin-top: 15%;
+.decor h2 {
+  font-size: 2.2em;
 } 
+
+.test1 img {
+  width: 100%;
+}
+
 
 
 
 h1 {
   font-weight: bold;
+  font-size: 3em;
 }
 
 h2 {
@@ -201,9 +149,7 @@ h2 {
   min-height: 100vh;
 }
 
-.behind-leafy {
-  margin-bottom: 12%;
-}
+
 
 .behind-leafy h1 {
   font-size: 4em;
@@ -221,9 +167,16 @@ h2 {
   width: 45%;
 }
 
-.contact {
-  margin-top: 20%;
-  background-color: rgb(4, 9, 37);
-  color: mintcream;
+.testimonial h1 {
+  font-size: 4em;
 }
 
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.card-header {
+  background-color: #2D4108;
+  color: white;
+}
