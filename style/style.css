@@ -15,7 +15,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 110vh;
+    min-height: 100vh;
+    position: relative;
+}
+
+.logo-motto {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .landing h2 {
