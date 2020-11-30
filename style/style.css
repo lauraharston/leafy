@@ -8,7 +8,6 @@ body {
 
 
 
-
 .landing{
     background-image: url("./pictures/thomas-verbruggen-5A06OWU6Wuc-unsplash\ \(1\).jpg");
     background-attachment: fixed;
@@ -100,6 +99,13 @@ body {
   width: 80%;
 }
 
+@media (min-width:767px) and (max-width:768px) {
+
+  .features p {
+    font-size: 28px;
+  }
+
+}
 
 
 .box {
