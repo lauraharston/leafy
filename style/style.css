@@ -154,9 +154,24 @@ h2 {
   margin-top: 10%;
 }
 
+
+
 #hand {
   width: 120%;
   margin-left: -40%;
+}
+
+@media (min-width:767px) and (max-width:768px) {
+
+  #herb {
+    width: 150%;
+  }
+}
+@media (min-width:767px) and (max-width:768px) {
+
+  #hand {
+    width: 180%;
+  }
 }
 
 #test {
