@@ -118,10 +118,11 @@ body {
 
 .decor img {
   width: 100%;
+  height: 100%;
 }
 
 .decor h2 {
-  font-size: 2.2em;
+  font-size: 2.5em;
 } 
 
 .test1 img {

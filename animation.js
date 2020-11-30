@@ -1,7 +1,7 @@
 // Window match media
 let picture = document.getElementById("founder2");
 let parent = document.getElementById("martin");
-let mediaResize = window.matchMedia("(max-width: 812px)");
+let mediaResize = window.matchMedia("(max-width: 992px)");
 
 
 function moveImg () {
