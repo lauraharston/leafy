@@ -19,6 +19,7 @@ mediaResize.addListener(moveImg);
 
 // Animations
 
+gsap.registerPlugin(ScrollTrigger);
 
 let tl = gsap.timeline();
 tl.from(".logo",{duration: 2, opacity: 0})
