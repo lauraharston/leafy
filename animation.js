@@ -1,3 +1,6 @@
+
+
+
 // Window match media
 let picture = document.getElementById("founder2");
 let parent = document.getElementById("martin");
@@ -19,22 +22,85 @@ mediaResize.addListener(moveImg);
 
 // Animations
 
-gsap.registerPlugin(ScrollTrigger);
 
-let tl = gsap.timeline();
-tl.from(".logo",{duration: 2, opacity: 0})
-tl.from("#motto", {duration: 0.5, opacity: 0, x:-150})
-tl.from(".header", {duration: 1, opacity: 0, y: 150})
-tl.from("#feature1", {duration: 0.8, opacity: 0, x: 150})
-tl.from("#feature2", {duration: 0.8, opacity: 0, x: 150})
-tl.from("#feature3", {duration: 0.8, opacity: 0, x: 150})
-tl.from('#decor', {duration: 1, opacity: 0})
-tl.from('.decor',{duration: 1, opacity: 0, x: -150 })
-tl.from('.animated-col',{duration: 1, opacity: 0, y: 150})
-tl.from("#hand", {duration: 1, opacity: 0, x: 150})
-tl.from("#herb", {duration: 2, opacity: 0, y: 150})
-tl.from("#vertical-txt",{duration: 1, opacity: 0})
-tl.from("#isaiah", {duration: 1, opacity: 0, y: 150})
-tl.from("#martin", {duration: 1, opacity: 0, x: 150})
+
+let tl1 = gsap.timeline();
+let tl2 = gsap.timeline(
+    {   
+        scrollTrigger: {
+          trigger: ".header",
+          scrub: true, 
+          start: "top center",
+          end: "top 3OOpx"
+        }
+      }
+);
+
+let tl3 = gsap.timeline(
+    {   
+        scrollTrigger: {
+          trigger: "#decor",
+          scrub: true, 
+          start: "top center",
+          end: "top 100px"
+        }
+      }
+);
+
+let tl4 = gsap.timeline(
+    {   
+        scrollTrigger: {
+          trigger: "#hand",
+          scrub: true, 
+          start: "top center",
+          end: "top 100px"
+        }
+      }
+);
+
+let tl5 = gsap.timeline(
+    {   
+        scrollTrigger: {
+          trigger: "#isaiah",
+          scrub: true, 
+          start: "top center",
+          end: "top 100px"
+        }
+      }
+);
+
+let tl6 = gsap.timeline(
+  {   
+      scrollTrigger: {
+        trigger: "#martin",
+        scrub: true, 
+        start: "top center",
+        end: "top 100px"
+      }
+    }
+);
+
+
+tl1.from(".logo",{duration: 1.5, opacity: 0})
+  .from("#motto", {duration: 0.5, opacity: 0, x:-150})
+
+
+tl2.from(".header", {duration: 1, opacity: 0, y: 150})
+    .from("#feature1", {duration: 1, opacity: 0, x: 150})
+    .from("#feature2", {duration: 1, opacity: 0, x: 150})
+    .from("#feature3", {duration: 1, opacity: 0, x: 150})
+
+
+  tl3.from('.decor',{duration: 1, opacity: 0, x: -150 })
+      .from('.animated-col',{duration: 1, opacity: 0, y: 150})
+
+
+  tl4.from("#hand", {duration: 5, opacity: 0, x: 100})
+    .from("#vertical-txt",{duration: 5, opacity: 0})
+
+  tl5.from("#isaiah", {duration: 1, opacity: 0, y: 50})
+  tl6.from("#martin", {duration: 1, opacity: 0, x: 50})
+      
+      
 
 
