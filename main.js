@@ -1,3 +1,8 @@
+// Hide loading page when page ready
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
+
 // Window match media
 let picture = document.getElementById("founder2");
 let parent = document.getElementById("martin");
