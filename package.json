@@ -6,12 +6,16 @@
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Laura Harston",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.5.4",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
