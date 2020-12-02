@@ -1,6 +1,3 @@
-
-
-
 // Window match media
 let picture = document.getElementById("founder2");
 let parent = document.getElementById("martin");
@@ -21,9 +18,6 @@ mediaResize.addListener(moveImg);
 
 
 // Animations
-
-
-
 let tl1 = gsap.timeline();
 let tl2 = gsap.timeline(
     {   
@@ -142,7 +136,7 @@ tl2.from(".header", {duration: 1, opacity: 0, y: 150})
   tl3d.from('#imgAnimated4',{duration: 1, opacity: 0, y: 100})
 
 
-  tl4.from("#hand", {duration: 5, opacity: 0, x: 100})
+  tl4.from("#hand", {duration: 5, opacity: 0, x: 150})
     .from("#vertical-txt",{duration: 5, opacity: 0})
 
   tl5.from("#isaiah", {duration: 1, opacity: 0, y: 50})
