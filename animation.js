@@ -29,7 +29,7 @@ let tl2 = gsap.timeline(
     {   
         scrollTrigger: {
           trigger: ".header",
-          scrub: true, 
+          scrub: false, 
           start: "top center",
           end: "top 3OOpx"
         }
@@ -40,7 +40,7 @@ let tl3 = gsap.timeline(
     {   
         scrollTrigger: {
           trigger: "#decor",
-          scrub: true, 
+          scrub: 1, 
           start: "top center",
           end: "top 100px"
         }
@@ -51,7 +51,7 @@ let tl4 = gsap.timeline(
     {   
         scrollTrigger: {
           trigger: "#hand",
-          scrub: true, 
+          scrub: 1, 
           start: "top center",
           end: "top 100px"
         }
@@ -62,7 +62,7 @@ let tl5 = gsap.timeline(
     {   
         scrollTrigger: {
           trigger: "#isaiah",
-          scrub: true, 
+          scrub: 1, 
           start: "top center",
           end: "top 100px"
         }
