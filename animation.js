@@ -50,7 +50,7 @@ let tl3 = gsap.timeline(
 let tl3a = gsap.timeline(
   {   
       scrollTrigger: {
-        trigger: "#decor",
+        trigger: "#imgAnimated3",
         scrub: 1, 
         start: "top center",
         end: "top 100px"
@@ -61,7 +61,7 @@ let tl3a = gsap.timeline(
 let tl3b = gsap.timeline(
   {   
       scrollTrigger: {
-        trigger: "#decor",
+        trigger: "#imgAnimated3",
         scrub: 1, 
         start: "top center",
         end: "top 100px"
@@ -126,13 +126,13 @@ let tl6 = gsap.timeline(
 
 
 tl1.from(".logo",{duration: 1.5, opacity: 0})
-  .from("#motto", {duration: 0.5, opacity: 0, x:-150})
+  .from("#motto", {duration: 1, opacity: 0, x:-150})
 
 
 tl2.from(".header", {duration: 1, opacity: 0, y: 150})
-    .from("#feature1", {duration: 1, opacity: 0, x: 150})
-    .from("#feature2", {duration: 1, opacity: 0, x: 150})
-    .from("#feature3", {duration: 1, opacity: 0, x: 150})
+    .from("#feature1", {duration: 0.7, opacity: 0, x: 150})
+    .from("#feature2", {duration: 0.7, opacity: 0, x: 150})
+    .from("#feature3", {duration: 0.7, opacity: 0, x: 150})
 
 
   tl3.from('.decor',{duration: 1, opacity: 0, x: -150 })
