@@ -1,9 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     height: 100%;
     width:100%;
     color: #2D4108;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 
@@ -130,7 +132,7 @@ h2 {
 }
 
 
-.founders {
+#founders {
   min-height: 100vh;
 }
 
